@@ -1,22 +1,22 @@
 <div align="center">
 
 <!-- 1. HERO BANNER -->
-<img src="./hero.svg?v=1" alt="Yazan - Animated Hero" width="100%" />
+<img src="./hero.svg?v=2" alt="Yazan Gupta - Animated Hero" width="100%" />
 
 <br/><br/>
 
 <!-- 2. WHAT I BUILD & HOBBIES CAROUSEL -->
-<img src="./about-life.svg?v=1" alt="What I Build & Passions" width="100%" />
+<img src="./about-life.svg?v=2" alt="What I Build & Passions" width="100%" />
 
 <br/><br/>
 
 <!-- 3. TECH ORBIT & CHIP GRID -->
-<img src="./stack.svg?v=1" alt="Tech Orbit & Ecosystem" width="100%" />
+<img src="./stack.svg?v=2" alt="Tech Orbit & Ecosystem" width="100%" />
 
 <br/><br/>
 
 <!-- 4. HOLOGRAPHIC ID BADGE & LIVE DASHBOARD -->
-<img src="./id-dashboard.svg?v=1" alt="ID Badge & Telemetry Dashboard" width="100%" />
+<img src="./id-dashboard.svg?v=2" alt="ID Badge & Telemetry Dashboard" width="100%" />
 
 <br/><br/>
 
@@ -35,17 +35,25 @@
 
 | # | Project | Description | Tech Stack | Status |
 | :-: | :--- | :--- | :--- | :---: |
-| 01 | **[SevaSetu](https://github.com)** | Citizen & community service bridge platform delivering seamless digital workflows. | `MongoDB` `Express` `React` `Node.js` | 🌟 Flagship |
-| 02 | **[AI-Data-Insights](https://github.com)** | Predictive analytics & intelligent machine learning pipelines for complex data streams. | `Python` `Pandas` `Scikit-Learn` `FastAPI` | 🚀 Active |
-| 03 | **[MERN-Nexus](https://github.com)** | High-performance full-stack web architecture with real-time state synchronization. | `React 19` `Redux` `Node.js` `Tailwind` | ⚡ Production |
-| 04 | **[Cloud-Bridge-API](https://github.com)** | Scalable microservice REST/GraphQL gateway with Docker container orchestration. | `Node.js` `MongoDB` `Docker` `AWS` | 🎨 v1.5 |
+| 01 | **[SevaSetu](https://github.com/yazantechofficial89/SevaSetu)** | 🤝 **A Digital Bridge Between Care & Need** — Connects donors directly with verified orphanages & old-age homes across India with complete transparency and zero middlemen. | `Node.js` `MongoDB` `Firebase` `Razorpay` `PWA` | 🌟 Flagship (Live) |
+| 02 | **[AI-Data-Insights](https://github.com/yazantechofficial89)** | Predictive analytics & intelligent machine learning pipelines for complex data streams. | `Python` `Pandas` `Scikit-Learn` `FastAPI` | 🚀 Active |
+| 03 | **[MERN-Nexus](https://github.com/yazantechofficial89)** | High-performance full-stack web architecture with real-time state synchronization. | `React 19` `Redux` `Node.js` `Tailwind` | ⚡ Production |
+| 04 | **[Cloud-Bridge-API](https://github.com/yazantechofficial89)** | Scalable microservice REST/GraphQL gateway with Docker container orchestration. | `Node.js` `MongoDB` `Docker` `AWS` | 🎨 v1.5 |
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/yazantechofficial89/SevaSetu" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yazantechofficial89&repo=SevaSetu&theme=tokyonight&border_color=22d3ee&bg_color=0d0e16&title_color=22d3ee&icon_color=f472b6&text_color=94a3b8" alt="SevaSetu Flagship Repository" />
+  </a>
+</div>
 
 <br/>
 
 <div align="center">
 
 <!-- 6. CONNECT & COLLABORATE FOOTER -->
-<img src="./connect.svg?v=1" alt="Connect with Yazan" width="100%" />
+<img src="./connect.svg?v=2" alt="Connect with Yazan" width="100%" />
 
 <br/><br/>
 
