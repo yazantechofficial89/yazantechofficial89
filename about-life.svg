@@ -219,25 +219,25 @@
       <!-- SLIDE 1 -->
       <g class="hobby-slide-1">
         <rect x="0" y="0" width="392" height="92" rx="12" fill="#0c1220" stroke="#1d283f" stroke-width="1" />
-        <text x="18" y="32" fill="#22d3ee" class="font-sans" font-size="16" font-weight="700">⌨️ Mechanical Keyboards &amp; Desk Setup</text>
-        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Custom lubed switches, tactile soundscapes &amp; ergonomic spaces.</text>
-        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Current obsession: 65% custom gasket-mount build</text>
+        <text x="18" y="32" fill="#22d3ee" class="font-sans" font-size="16" font-weight="700">🤖 AI &amp; Technology Exploration</text>
+        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Exploring AI innovations and emerging technologies.</text>
+        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Passion: Discovering future tech</text>
       </g>
 
       <!-- SLIDE 2 -->
       <g class="hobby-slide-2">
         <rect x="0" y="0" width="392" height="92" rx="12" fill="#150f24" stroke="#2d2047" stroke-width="1" />
-        <text x="18" y="32" fill="#a78bfa" class="font-sans" font-size="16" font-weight="700">📸 Cinematic Photography &amp; Visuals</text>
-        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Golden hour street shots, moody night neon &amp; color science.</text>
-        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Lens of choice: 35mm f/1.4 prime</text>
+        <text x="18" y="32" fill="#a78bfa" class="font-sans" font-size="16" font-weight="700">🚀 Building Innovative Projects</text>
+        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Turning creative ideas into real-world solutions.</text>
+        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Passion: Creating &amp; innovating</text>
       </g>
 
       <!-- SLIDE 3 -->
       <g class="hobby-slide-3">
         <rect x="0" y="0" width="392" height="92" rx="12" fill="#200d1b" stroke="#421a36" stroke-width="1" />
-        <text x="18" y="32" fill="#f472b6" class="font-sans" font-size="16" font-weight="700">🎮 Tactical Gaming &amp; Sci-Fi Literature</text>
-        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Strategic thinking, complex game mechanics &amp; cyberpunk lore.</text>
-        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Favorite universes: Cyberpunk, Isaac Asimov, Dune</text>
+        <text x="18" y="32" fill="#f472b6" class="font-sans" font-size="16" font-weight="700">📈 Stock Market &amp; Trading</text>
+        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Analyzing market trends and trading strategies.</text>
+        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Passion: Financial market analysis</text>
       </g>
     </g>
 

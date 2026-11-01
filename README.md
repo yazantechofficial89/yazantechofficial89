@@ -6,7 +6,7 @@
 <br/><br/>
 
 <!-- 2. WHAT I BUILD & HOBBIES CAROUSEL -->
-<img src="./about-life.svg?v=2" alt="What I Build & Passions" width="100%" />
+<img src="./about-life.svg?v=3" alt="What I Build & Passions" width="100%" />
 
 <br/><br/>
 
