@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c14" />
+      <stop offset="50%" stop-color="#0d0e16" />
+      <stop offset="100%" stop-color="#111322" />
+    </linearGradient>
+
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.4" />
+    </linearGradient>
+
+    <linearGradient id="cyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+
+    <linearGradient id="violetPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <!-- Dot Pattern -->
+    <pattern id="dotGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1e2438" />
+    </pattern>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    <![CDATA[
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    /* Terminal Cursor Blink */
+    @keyframes blinkCursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor-blink {
+      animation: blinkCursor 0.9s infinite step-start;
+    }
+
+    /* Instagram-Style Story Progress Bars (12s total cycle) */
+    @keyframes barProgress1 {
+      0% { width: 0px; }
+      30%, 100% { width: 125px; }
+    }
+    @keyframes barProgress2 {
+      0%, 33% { width: 0px; }
+      63%, 100% { width: 125px; }
+    }
+    @keyframes barProgress3 {
+      0%, 66% { width: 0px; }
+      96%, 100% { width: 125px; }
+    }
+    .prog-1 { animation: barProgress1 12s infinite linear; }
+    .prog-2 { animation: barProgress2 12s infinite linear; }
+    .prog-3 { animation: barProgress3 12s infinite linear; }
+
+    /* Hobbies Carousel Slide Fade and Crossfade */
+    @keyframes slideCycle1 {
+      0%, 30% { opacity: 1; transform: translateY(0px); }
+      33%, 97% { opacity: 0; transform: translateY(12px); }
+      100% { opacity: 1; transform: translateY(0px); }
+    }
+    @keyframes slideCycle2 {
+      0%, 33% { opacity: 0; transform: translateY(12px); }
+      36%, 63% { opacity: 1; transform: translateY(0px); }
+      66%, 100% { opacity: 0; transform: translateY(12px); }
+    }
+    @keyframes slideCycle3 {
+      0%, 66% { opacity: 0; transform: translateY(12px); }
+      69%, 96% { opacity: 1; transform: translateY(0px); }
+      100% { opacity: 0; transform: translateY(12px); }
+    }
+    .hobby-slide-1 { animation: slideCycle1 12s infinite ease-in-out; }
+    .hobby-slide-2 { animation: slideCycle2 12s infinite ease-in-out; }
+    .hobby-slide-3 { animation: slideCycle3 12s infinite ease-in-out; }
+
+    /* Daily Activity Rings Fill Loop */
+    @keyframes ringFill1 {
+      0% { stroke-dashoffset: 280; }
+      50%, 100% { stroke-dashoffset: 65; }
+    }
+    @keyframes ringFill2 {
+      0% { stroke-dashoffset: 220; }
+      50%, 100% { stroke-dashoffset: 55; }
+    }
+    @keyframes ringFill3 {
+      0% { stroke-dashoffset: 160; }
+      50%, 100% { stroke-dashoffset: 40; }
+    }
+    .ring-outer {
+      stroke-dasharray: 280;
+      animation: ringFill1 4s infinite ease-in-out alternate;
+    }
+    .ring-middle {
+      stroke-dasharray: 220;
+      animation: ringFill2 4s infinite ease-in-out alternate;
+    }
+    .ring-inner {
+      stroke-dasharray: 160;
+      animation: ringFill3 4s infinite ease-in-out alternate;
+    }
+
+    /* Row hover shimmer */
+    .row-glow {
+      transition: all 0.3s ease;
+    }
+    ]]>
+  </style>
+
+  <!-- ================= LEFT CARD: WHAT I BUILD (FAKE BROWSER) ================= -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="440" height="360" rx="18" fill="url(#cardBg)" stroke="url(#borderGlow)" stroke-width="1.5" />
+    <rect x="0" y="0" width="440" height="360" rx="18" fill="url(#dotGrid)" opacity="0.4" />
+
+    <!-- Browser Header Bar -->
+    <rect x="0" y="0" width="440" height="42" rx="18" fill="#131726" />
+    <path d="M 0 32 L 0 42 L 440 42 L 440 32 Z" fill="#131726" />
+
+    <!-- Window Controls (Traffic Lights) -->
+    <circle cx="24" cy="21" r="5" fill="#f43f5e" />
+    <circle cx="42" cy="21" r="5" fill="#eab308" />
+    <circle cx="60" cy="21" r="5" fill="#10b981" />
+
+    <!-- Browser URL Bar -->
+    <rect x="85" y="9" width="270" height="24" rx="6" fill="#090a10" stroke="#252d47" stroke-width="1" />
+    <!-- Lock Icon -->
+    <path d="M 98 19 L 98 17 C 98 14.5 100 13 102.5 13 C 105 13 107 14.5 107 17 L 107 19 M 96 19 L 109 19 L 109 25 L 96 25 Z"
+          fill="none" stroke="#22d3ee" stroke-width="1.2" stroke-linejoin="round" />
+    <text x="116" y="25" fill="#94a3b8" class="font-mono" font-size="11">https://yazan.dev/capabilities</text>
+    <rect x="306" y="14" width="2" height="14" fill="#22d3ee" class="cursor-blink" />
+
+    <!-- Section Title -->
+    <g transform="translate(24, 68)">
+      <text x="0" y="0" fill="#22d3ee" class="font-mono" font-size="11" font-weight="700" letter-spacing="1.5">// WHAT I BUILD</text>
+      <text x="0" y="24" fill="#f8fafc" class="font-sans" font-size="20" font-weight="800">Core Engineering</text>
+    </g>
+
+    <!-- Capability Rows -->
+    <g transform="translate(20, 125)">
+      <!-- Row 1: Full Stack Architecture -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="400" height="64" rx="10" fill="#0e111d" stroke="#1e243b" stroke-width="1" class="row-glow" />
+        <!-- Icon Tile -->
+        <rect x="12" y="12" width="40" height="40" rx="8" fill="#132238" stroke="#22d3ee" stroke-width="1" />
+        <!-- Stack / Layer Icon -->
+        <path d="M 22 28 L 32 33 L 42 28 M 22 34 L 32 39 L 42 34 M 32 23 L 42 28 L 32 33 L 22 28 Z" fill="none" stroke="#22d3ee" stroke-width="1.6" stroke-linejoin="round" />
+        <text x="64" y="28" fill="#f1f5f9" class="font-sans" font-size="14" font-weight="700">Scalable Full-Stack Architecture</text>
+        <text x="64" y="46" fill="#94a3b8" class="font-sans" font-size="11.5">Next.js, TypeScript, microservices &amp; resilient APIs</text>
+      </g>
+
+      <!-- Row 2: Fluid Interactive UIs -->
+      <g transform="translate(0, 74)">
+        <rect x="0" y="0" width="400" height="64" rx="10" fill="#0e111d" stroke="#1e243b" stroke-width="1" class="row-glow" />
+        <!-- Icon Tile -->
+        <rect x="12" y="12" width="40" height="40" rx="8" fill="#251b3d" stroke="#a78bfa" stroke-width="1" />
+        <!-- Sparkle / Design Icon -->
+        <path d="M 32 20 L 34 27 L 41 29 L 34 31 L 32 38 L 30 31 L 23 29 L 30 27 Z" fill="#a78bfa" opacity="0.9" />
+        <text x="64" y="28" fill="#f1f5f9" class="font-sans" font-size="14" font-weight="700">High-Performance Motion &amp; UIs</text>
+        <text x="64" y="46" fill="#94a3b8" class="font-sans" font-size="11.5">Responsive micro-interactions, CSS/SVG magic &amp; 60fps</text>
+      </g>
+
+      <!-- Row 3: Distributed Systems & Cloud -->
+      <g transform="translate(0, 148)">
+        <rect x="0" y="0" width="400" height="64" rx="10" fill="#0e111d" stroke="#1e243b" stroke-width="1" class="row-glow" />
+        <!-- Icon Tile -->
+        <rect x="12" y="12" width="40" height="40" rx="8" fill="#35162a" stroke="#f472b6" stroke-width="1" />
+        <!-- Cloud / Terminal Icon -->
+        <path d="M 24 35 C 22 35 20 33 20 30 C 20 28 22 26 25 26 C 26 23 29 21 33 21 C 37 21 40 23 41 26 C 43 27 44 29 44 31 C 44 33 42 35 40 35 Z"
+              fill="none" stroke="#f472b6" stroke-width="1.6" stroke-linejoin="round" />
+        <text x="64" y="28" fill="#f1f5f9" class="font-sans" font-size="14" font-weight="700">Cloud, DevOps &amp; Reliability</text>
+        <text x="64" y="46" fill="#94a3b8" class="font-sans" font-size="11.5">Docker, CI/CD automated deployment &amp; low latency</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT CARD: HOBBIES & DAILY RINGS ================= -->
+  <g transform="translate(470, 10)">
+    <rect x="0" y="0" width="440" height="360" rx="18" fill="url(#cardBg)" stroke="url(#borderGlow)" stroke-width="1.5" />
+    <rect x="0" y="0" width="440" height="360" rx="18" fill="url(#dotGrid)" opacity="0.4" />
+
+    <!-- Instagram-style segment progress bars -->
+    <g transform="translate(24, 20)">
+      <!-- Segment 1 -->
+      <rect x="0" y="0" width="125" height="3.5" rx="1.75" fill="#1e2438" />
+      <rect x="0" y="0" width="0" height="3.5" rx="1.75" fill="#22d3ee" class="prog-1" />
+
+      <!-- Segment 2 -->
+      <rect x="133" y="0" width="125" height="3.5" rx="1.75" fill="#1e2438" />
+      <rect x="133" y="0" width="0" height="3.5" rx="1.75" fill="#a78bfa" class="prog-2" />
+
+      <!-- Segment 3 -->
+      <rect x="266" y="0" width="125" height="3.5" rx="1.75" fill="#1e2438" />
+      <rect x="266" y="0" width="0" height="3.5" rx="1.75" fill="#f472b6" class="prog-3" />
+    </g>
+
+    <!-- Card Header -->
+    <g transform="translate(24, 52)">
+      <text x="0" y="0" fill="#a78bfa" class="font-mono" font-size="11" font-weight="700" letter-spacing="1.5">// PASSIONS &amp; RHYTHM</text>
+      <text x="0" y="24" fill="#f8fafc" class="font-sans" font-size="20" font-weight="800">Life Outside Code</text>
+    </g>
+
+    <!-- Carousel Slide Area (Crossfading) -->
+    <g transform="translate(24, 110)">
+      <!-- SLIDE 1 -->
+      <g class="hobby-slide-1">
+        <rect x="0" y="0" width="392" height="92" rx="12" fill="#0c1220" stroke="#1d283f" stroke-width="1" />
+        <text x="18" y="32" fill="#22d3ee" class="font-sans" font-size="16" font-weight="700">⌨️ Mechanical Keyboards &amp; Desk Setup</text>
+        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Custom lubed switches, tactile soundscapes &amp; ergonomic spaces.</text>
+        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Current obsession: 65% custom gasket-mount build</text>
+      </g>
+
+      <!-- SLIDE 2 -->
+      <g class="hobby-slide-2">
+        <rect x="0" y="0" width="392" height="92" rx="12" fill="#150f24" stroke="#2d2047" stroke-width="1" />
+        <text x="18" y="32" fill="#a78bfa" class="font-sans" font-size="16" font-weight="700">📸 Cinematic Photography &amp; Visuals</text>
+        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Golden hour street shots, moody night neon &amp; color science.</text>
+        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Lens of choice: 35mm f/1.4 prime</text>
+      </g>
+
+      <!-- SLIDE 3 -->
+      <g class="hobby-slide-3">
+        <rect x="0" y="0" width="392" height="92" rx="12" fill="#200d1b" stroke="#421a36" stroke-width="1" />
+        <text x="18" y="32" fill="#f472b6" class="font-sans" font-size="16" font-weight="700">🎮 Tactical Gaming &amp; Sci-Fi Literature</text>
+        <text x="18" y="56" fill="#cbd5e1" class="font-sans" font-size="12.5">Strategic thinking, complex game mechanics &amp; cyberpunk lore.</text>
+        <text x="18" y="74" fill="#64748b" class="font-mono" font-size="11">Favorite universes: Cyberpunk, Isaac Asimov, Dune</text>
+      </g>
+    </g>
+
+    <!-- Three Daily Activity Rings (Apple Watch style) -->
+    <g transform="translate(24, 230)">
+      <rect x="0" y="0" width="392" height="110" rx="12" fill="#0a0c14" stroke="#191f33" stroke-width="1" />
+
+      <!-- Concentric Activity Rings -->
+      <g transform="translate(65, 55)">
+        <!-- Outer Ring Track & Arc (Code) -->
+        <circle cx="0" cy="0" r="44" fill="none" stroke="#132a38" stroke-width="8" />
+        <circle cx="0" cy="0" r="44" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" class="ring-outer" transform="rotate(-90)" />
+
+        <!-- Middle Ring Track & Arc (Research) -->
+        <circle cx="0" cy="0" r="34" fill="none" stroke="#2a1f44" stroke-width="8" />
+        <circle cx="0" cy="0" r="34" fill="none" stroke="#a78bfa" stroke-width="8" stroke-linecap="round" class="ring-middle" transform="rotate(-90)" />
+
+        <!-- Inner Ring Track & Arc (Health/Focus) -->
+        <circle cx="0" cy="0" r="24" fill="none" stroke="#3b192e" stroke-width="8" />
+        <circle cx="0" cy="0" r="24" fill="none" stroke="#f472b6" stroke-width="8" stroke-linecap="round" class="ring-inner" transform="rotate(-90)" />
+      </g>
+
+      <!-- Rings Legend -->
+      <g transform="translate(145, 24)">
+        <!-- Legend 1 -->
+        <g transform="translate(0, 0)">
+          <circle cx="5" cy="5" r="4" fill="#22d3ee" />
+          <text x="16" y="8" fill="#f1f5f9" class="font-sans" font-size="12" font-weight="600">Deep Work &amp; Code</text>
+          <text x="180" y="8" fill="#22d3ee" class="font-mono" font-size="12" font-weight="700">92%</text>
+        </g>
+        <!-- Legend 2 -->
+        <g transform="translate(0, 24)">
+          <circle cx="5" cy="5" r="4" fill="#a78bfa" />
+          <text x="16" y="8" fill="#f1f5f9" class="font-sans" font-size="12" font-weight="600">Learning &amp; Reading</text>
+          <text x="180" y="8" fill="#a78bfa" class="font-mono" font-size="12" font-weight="700">84%</text>
+        </g>
+        <!-- Legend 3 -->
+        <g transform="translate(0, 48)">
+          <circle cx="5" cy="5" r="4" fill="#f472b6" />
+          <text x="16" y="8" fill="#f1f5f9" class="font-sans" font-size="12" font-weight="600">Fitness &amp; Life Balance</text>
+          <text x="180" y="8" fill="#f472b6" class="font-mono" font-size="12" font-weight="700">76%</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
