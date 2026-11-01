@@ -50,7 +50,7 @@
 <div align="center">
 
 <!-- 6. CONNECT & COLLABORATE FOOTER -->
-<img src="./connect.svg?v=2" alt="Connect with Yazan" width="100%" />
+<img src="./connect.svg?v=3" alt="Connect with Yazan Tech" width="100%" />
 
 <br/><br/>
 
