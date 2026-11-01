@@ -16,7 +16,7 @@
 <br/><br/>
 
 <!-- 4. HOLOGRAPHIC ID BADGE & LIVE DASHBOARD -->
-<img src="./id-dashboard.svg?v=2" alt="ID Badge & Telemetry Dashboard" width="100%" />
+<img src="./id-dashboard.svg?v=3" alt="ID Badge & Telemetry Dashboard" width="100%" />
 
 <br/><br/>
 
@@ -31,14 +31,11 @@
 
 </div>
 
-### 🛠️ Top Featured Projects & Innovations
+### 🛠️ Featured Flagship Project
 
-| # | Project | Description | Tech Stack | Status |
-| :-: | :--- | :--- | :--- | :---: |
-| 01 | **[SevaSetu](https://github.com/yazantechofficial89/SevaSetu)** | 🤝 **A Digital Bridge Between Care & Need** — Connects donors directly with verified orphanages & old-age homes across India with complete transparency and zero middlemen. | `Node.js` `MongoDB` `Firebase` `Razorpay` `PWA` | 🌟 Flagship (Live) |
-| 02 | **[AI-Data-Insights](https://github.com/yazantechofficial89)** | Predictive analytics & intelligent machine learning pipelines for complex data streams. | `Python` `Pandas` `Scikit-Learn` `FastAPI` | 🚀 Active |
-| 03 | **[MERN-Nexus](https://github.com/yazantechofficial89)** | High-performance full-stack web architecture with real-time state synchronization. | `React 19` `Redux` `Node.js` `Tailwind` | ⚡ Production |
-| 04 | **[Cloud-Bridge-API](https://github.com/yazantechofficial89)** | Scalable microservice REST/GraphQL gateway with Docker container orchestration. | `Node.js` `MongoDB` `Docker` `AWS` | 🎨 v1.5 |
+| Project | Description | Tech Stack | Status |
+| :--- | :--- | :--- | :---: |
+| **[SevaSetu](https://github.com/yazantechofficial89/SevaSetu)** | 🤝 **A Digital Bridge Between Care & Need** — Connects donors directly with verified orphanages & old-age homes across India with complete transparency, role-based dashboards, and zero middlemen. | `Node.js` `Express` `MongoDB`<br/>`Firebase` `Razorpay` `PWA` | 🌟 Flagship (Live) |
 
 <br/>
 
