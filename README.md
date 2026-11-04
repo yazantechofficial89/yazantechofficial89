@@ -3,7 +3,16 @@
 <!-- 1. HERO BANNER -->
 <img src="./hero.svg?v=2" alt="Yazan Gupta - Animated Hero" width="100%" />
 
-<br/><br/>
+<br/>
+
+<!-- 👁️ Neon Profile Visitor Counter -->
+<p align="center">
+  <a href="https://github.com/yazantechofficial89">
+    <img src="https://komarev.com/ghpvc/?username=yazantechofficial89&label=PROFILE+VISITORS&color=22d3ee&labelColor=0d0e16&style=for-the-badge" alt="Profile Visitors Counter" />
+  </a>
+</p>
+
+<br/>
 
 <!-- 2. WHAT I BUILD & HOBBIES CAROUSEL -->
 <img src="./about-life.svg?v=3" alt="What I Build & Passions" width="100%" />
